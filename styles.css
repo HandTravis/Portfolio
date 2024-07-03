@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
     height: 100%;
     margin: 0;
     display: flex;
@@ -15,7 +15,7 @@ html, body {
     margin: 0;
     background-color: #f4f4f4;
     padding: 20px;
-} */
+}
 
 body {
     background-color: rgb(197, 232, 237);
@@ -103,4 +103,4 @@ footer {
 .card-content p {
     margin: 0;
     color: #555;
-}
+} */
