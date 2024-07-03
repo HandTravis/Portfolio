@@ -19,6 +19,8 @@ section {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 20px; /* Add some space between sections */
+    margin-left: 60px;
+    margin-right: 60px;
     text-align: center;
 }
 
