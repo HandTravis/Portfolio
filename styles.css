@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    display: block;
-    flex-direction: column; /* Change to column to stack elements vertically */
+    display: flex;
+    flex-direction: column; /* Ensure flex-direction is column to stack elements vertically */
     align-items: center; /* Optional: Center-align all child elements */
     min-height: 100vh;
     margin: 0;
