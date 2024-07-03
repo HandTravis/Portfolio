@@ -40,13 +40,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 30px; /* Adjust the spacing between icons as needed */
 }
 
 .footer-icons a img {
     width: 40px;
     height: 40px;
-    padding: 20px;
 }
 
 .card-container {
