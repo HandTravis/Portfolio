@@ -1,59 +1,58 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column; /* Ensure flex-direction is column to stack elements vertically */
-    align-items: center; /* Center-align all child elements */
+    flex-direction: column;
+    align-items: center;
     min-height: 100vh;
     margin: 0;
     background-color: #f4f4f4;
-    padding: 20px; /* Optional: Add some padding around the body */
+    padding: 20px;
 }
 
 header {
     text-align: center;
     width: 100%;
-    margin-bottom: 20px; /* Add some space below the header */
+    margin-bottom: 20px;
 }
 
 section {
     width: 100%;
+    max-width: 1200px; /* Optional: Set a max-width for better control */
     box-sizing: border-box;
-    margin-bottom: 20px; /* Add some space between sections */
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-bottom: 20px;
+    padding: 0 60px; /* Use padding instead of margin-left and margin-right for centering */
     text-align: center;
-    align-items: center;
     display: flex;
+    flex-direction: column; /* Stack elements vertically within the section */
+    align-items: center; /* Center-align all child elements */
 }
 
 footer {
-    justify-content: center;
-    flex-direction: row;
+    width: 100%;
     display: flex;
-    align-items:  center;
-    position: relative;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .footer-icons {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    gap: 30px; /* Adjust the spacing between icons as needed */
+    gap: 30px;
 }
 
 .footer-icons a img {
-    width: 40px; /* Adjust the size of the icons as needed */
+    width: 40px;
     height: 40px;
 }
 
-
 .card-container {
     display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; /* Center cards within the container */
+    justify-content: center;
 }
 
 .card {
