@@ -17,14 +17,11 @@ header {
 
 section {
     width: 100%;
-    max-width: 1200px; /* Optional: Set a max-width for better control */
+    max-width: 1200px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    padding: 0 60px; /* Use padding instead of margin-left and margin-right for centering */
+    padding: 0 20px;
     text-align: center;
-    display: flex;
-    flex-direction: column; /* Stack elements vertically within the section */
-    align-items: center; /* Center-align all child elements */
 }
 
 footer {
@@ -40,7 +37,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px; /* Adjust the spacing between icons as needed */
+    gap: 30px;
 }
 
 .footer-icons a img {
