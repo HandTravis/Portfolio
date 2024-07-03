@@ -12,3 +12,8 @@ p {
     font: arial;
     size: 100;
 }
+
+#introduction {
+    margin-top: 50;
+    font-size: xx-large;
+}
