@@ -47,6 +47,12 @@ body a {
     text-decoration: none;
 }
 
+header {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: rgb(197, 232, 237);
     flex-direction: row;
