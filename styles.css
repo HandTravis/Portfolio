@@ -35,8 +35,10 @@ footer {
 }
 
 .footer-icons {
+    justify-content: center;
+    align-items: center;
     display: flex;
-    gap: 20px; /* Adjust the spacing between icons as needed */
+    gap: 30px; /* Adjust the spacing between icons as needed */
 }
 
 .footer-icons a img {
