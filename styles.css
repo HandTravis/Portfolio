@@ -1,21 +1,54 @@
 /* find a way to change tab icon and name
 rn its just the grey world icon and Document */
 body {
-    background-color: teal;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     margin: 0;
+    background-color: #f4f4f4;
 }
 
-h1 {
-    font: comic;
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-p {
-    font: arial;
-    size: 100;
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s;
 }
 
-#introduction {
-    margin-top: 50;
-    font-size: xx-large;
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card a {
+    display: block;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+}
+
+.card-content p {
+    margin: 0;
+    color: #555;
 }
