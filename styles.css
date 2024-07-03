@@ -9,7 +9,7 @@ body {
 
 .card-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     padding: 20px 0; /* Add some padding to the top and bottom */
