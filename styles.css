@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    display: block;
     flex-direction: column; /* Change to column to stack elements vertically */
     align-items: center; /* Optional: Center-align all child elements */
     min-height: 100vh;
