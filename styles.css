@@ -5,9 +5,10 @@ body {
 }
 
 h1 {
-    font: comic
+    font: comic;
 }
 
 p {
-    font: arial
+    font: arial;
+    size: 100;
 }
