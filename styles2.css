@@ -8,6 +8,9 @@ html, body {
     align-items: center;
 }
 
+section {
+    background-color: blueviolet;
+}
 
 body {
     background-color: rgb(197, 232, 237);
