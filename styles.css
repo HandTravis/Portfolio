@@ -25,13 +25,25 @@ section {
 }
 
 footer {
-    align-items: center;
+    justify-content: center;
     flex-direction: row;
+    display: flex;
+    align-items:  center;
     position: relative;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.footer-icons {
+    display: flex;
+    gap: 20px; /* Adjust the spacing between icons as needed */
+}
+
+.footer-icons a img {
+    width: 40px; /* Adjust the size of the icons as needed */
+    height: 40px;
+}
+
 
 .card-container {
     display: flex;
