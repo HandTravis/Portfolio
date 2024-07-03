@@ -1,13 +1,13 @@
-.body {
+body {
     background-color: teal;
     text-align: center;
     margin: 0;
 }
 
-.h1 {
+h1 {
     font: comic
 }
 
-.p {
+p {
     font: arial
 }
