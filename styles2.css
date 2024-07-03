@@ -1,0 +1,115 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    background-color: rgb(197, 232, 237);
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    position: relative;
+}
+
+body h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0.3%;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+body p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+body a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(197, 232, 237);
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer a {
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.imgcontainer {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.overlaytext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    background: rgb(0, 0, 0);
+    background: rgba(203, 203, 203, 0.68);
+    color: #C0DFD9;
+    width: 25%;
+    transition: .2s ease;
+    opacity:0;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+
+.imgcontainer:hover .overlaytext {
+    opacity: 1;
+}
+
+.contactInfo {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 5px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
