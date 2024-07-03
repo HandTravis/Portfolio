@@ -8,6 +8,12 @@ body {
     background-color: #f4f4f4;
 }
 
+section {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .card-container {
     display: flex;
     flex-direction: row;
