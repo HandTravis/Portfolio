@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -95,4 +95,4 @@ footer {
 .card-content p {
     margin: 0;
     color: #555;
-} */
+}
