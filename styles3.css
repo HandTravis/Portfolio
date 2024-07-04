@@ -8,13 +8,14 @@ html, body {
 }
 
 body {
-    background-color: rgb(67, 221, 149);
+    background-color: rgb(242, 242, 242);
     padding: 2% 2% 0 2%; /* Added padding-top to create space at the top */
     text-align: center;
     position: relative;
 }
 
 header {
+    padding: 10px;
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
