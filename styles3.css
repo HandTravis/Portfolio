@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    margin: 20;
+    margin: 0; /* Corrected margin */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,9 +8,8 @@ html, body {
 }
 
 body {
-    background-color: rgb(197, 232, 237);
-    padding-left: 2%;
-    padding-right: 2%;
+    background-color: rgb(67, 221, 149);
+    padding: 2% 2% 0 2%; /* Added padding-top to create space at the top */
     text-align: center;
     position: relative;
 }
