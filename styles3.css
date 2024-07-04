@@ -63,7 +63,7 @@ footer {
     height: 40px;
 }
 
-.footer-icon:hover {
+#footer-icon:hover {
     transform: translateY(-10px);
 }
 
