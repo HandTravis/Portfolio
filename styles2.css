@@ -8,23 +8,12 @@ html, body {
     align-items: center;
 }
 
-section {
-    width: 100%;
-    max-width: 1200px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
 body {
-    padding: 20px;
     background-color: rgb(197, 232, 237);
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
     position: relative;
-    min-height: 100vh;
 }
 
 body h1 {
