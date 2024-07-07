@@ -15,7 +15,7 @@ header {
     padding: 20px 0; /* Increased padding for top and bottom */
     text-align: center;
     width: 100%;
-    margin-bottom: 20px; /* Adjusted margin bottom */
+    margin-bottom: 10px; /* Adjusted margin bottom */
     display: flex;
     flex-direction: column;
     align-items: center;
