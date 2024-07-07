@@ -31,10 +31,11 @@ header {
     width: 100%;
 }
 
-/* .header-content img {
-    max-width: 1333px;
-    height: 2000px;
-} */
+.header-content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 2000px; /* Ensures image height does not exceed 2000px */
+}
 
 .header-text {
     max-width: 800px;
@@ -64,7 +65,7 @@ footer {
 }
 
 #footer-icon:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 .card-container {
