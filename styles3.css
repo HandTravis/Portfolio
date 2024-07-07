@@ -5,20 +5,17 @@ html, body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-}
-
-body {
     background-color: rgb(242, 242, 242);
-    padding: 2% 2% 0 2%;
+    padding: 0; /* Removed padding from body */
     text-align: center;
     position: relative;
 }
 
 header {
-    padding: 10px; /* Add padding to the header */
+    padding: 20px 0; /* Increased padding for top and bottom */
     text-align: center;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Adjusted margin bottom */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +26,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 20px; /* Add padding to the header content */
+    padding-top: 0; /* Removed padding top */
 }
 
 .header-content img {
@@ -40,7 +37,7 @@ header {
 
 .header-text {
     max-width: 800px;
-    margin: 20px;
+    margin: 20px 0; /* Adjusted margin to top and bottom */
     text-align: left;
 }
 
@@ -66,7 +63,7 @@ footer {
 }
 
 #footer-icon:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 .card-container {
