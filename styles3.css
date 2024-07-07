@@ -31,10 +31,10 @@ header {
     width: 100%;
 }
 
-.header-content img {
+/* .header-content img {
     max-width: 1333px;
     height: 2000px;
-}
+} */
 
 .header-text {
     max-width: 800px;
