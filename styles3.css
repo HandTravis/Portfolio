@@ -40,6 +40,11 @@ header {
     margin: 20px 0; /* Adjusted margin to top and bottom */
     text-align: left;
 }
+.header-updated {
+    max-width: 800px;
+    margin: 20px 0; /* Adjusted margin to top and bottom */
+    text-align: center;
+}
 
 footer {
     width: 100%;
@@ -102,7 +107,7 @@ footer {
 }
 
 .card-content h3 {
-    margin: 0 0 10px;
+    margin: 0 0 10px 10px;
 }
 
 .card-content p {
